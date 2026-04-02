@@ -51,9 +51,4 @@ The system continuously monitors body orientation and impact forces.
 2. **Libraries:** Install `Blynk`, `LiquidCrystal_I2C`, and the sensor library in Arduino
 
 
-void updateDisplayOK() {
-  lcd.setCursor(0, 0);
-  lcd.print("Status: Protected");
-  lcd.setCursor(0, 1);
-  lcd.print("System Online    ");
-}
+
